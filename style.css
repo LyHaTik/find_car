@@ -22,10 +22,6 @@ body {
 	text-align: center;
 	align-items: center;
 }
-a {
-  	color: #000 !important;
-  	text-decoration: none
-}
 .img {
 	width: 180px;
 	height: 180px;
@@ -44,5 +40,7 @@ a {
 	background: rgb(248,168,24);
 }
 .usercard {
+	color: #000 !important;
+  	text-decoration: none
 	text-align: center;
 }
