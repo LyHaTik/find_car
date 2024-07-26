@@ -22,12 +22,6 @@ body {
 	text-align: center;
 	align-items: center;
 }
-.img {
-	width: 180px;
-	height: 180px;
-	border: 2px;
-	border-radius: 25px;
-}
 #find {
 	padding: 50px 50px;
 	border: none;
