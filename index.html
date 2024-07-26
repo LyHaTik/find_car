@@ -12,7 +12,7 @@
         	<p>Пояснение к сетке 4 на 3:</p>
         	<div class="grid">
             	<div class="grid-item">
-			<select class="select">
+			<select class="select" id="category">
 			  <option disabled>Категория</option>
 			  <option value="ALL">ALL</option>
 			  <option value="Econom">Econom</option>
@@ -21,7 +21,7 @@
 			</select>
 		</div>
             	<div class="grid-item">
-			<select class="select">
+			<select class="select" id="passengers">
 			  <option disabled>Мест</option>
 			  <option value="ALL">ALL</option>
 			  <option value="2">2</option>
@@ -30,7 +30,7 @@
 			</select>
 		</div>
             	<div class="grid-item">
-			<select class="select">
+			<select class="select" id="count">
 			  <option disabled>Стоимость(бат)</option>
 			  <option value="ALL">ALL</option>
 			  <option value="<15">до 15к</option>
@@ -39,11 +39,11 @@
 			</select>
 		</div>
         </div>
+	<button class="button" onclick="closeApp()">Поиск</button>
         <div class="text-block">
             <p>Тут может быть ваша реклама</p>
-            <p>По всем вопросам обращаться: <a href="https://t.me/YourTelegramAccount" target="_blank">@YourTelegramAccount</a></p>
+            <p>По всем вопросам обращаться: <a href="https://t.me/BotMaster_Alex_A" target="_blank">@BotMaster_Alex_A</a></p>
         </div>
-        <button class="button" onclick="closeApp()">Закрыть приложение</button>
     </div>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script src="app.js"></script>
