@@ -1,57 +1,57 @@
 body, html {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: var(--tg-theme-bg-color);
-        background-size: cover;
-        background-position: center;
-	color: var(--tg-theme-text-color);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png');
+            background-size: cover;
+            background-position: center;
         }
-.content {
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
-        max-width: 90%;
-}
-h1 {
-        font-size: 24px;
-        margin-bottom: 20px;
-}
-.grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-        margin-bottom: 20px;
-}
-.grid-item {
-        background-color: #f0f0f0;
-        border: 1px solid #ddd;
-        padding: 20px;
-        border-radius: 4px;
-}
-.text-block {
-        margin: 20px 0;
-}
-.button {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 4px;
-        cursor: pointer;
-        margin-top: 10px;
-}
-.button:active {
-        background-color: #0056b3;
-}
-a {
-        color: #007bff;
-        text-decoration: none;
-}
+        .content {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            max-width: 90%;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .grid-item {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        .text-block {
+            margin: 20px 0;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .button:active {
+            background-color: #0056b3;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+	  
