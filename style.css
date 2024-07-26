@@ -29,10 +29,10 @@ body {
 	border-radius: 25px;
 }
 #find {
-	padding: 15px 40px;
+	padding: 50px 50px;
 	border: none;
 	background: rgb(208,255,113);
-	border-radius: 10px;
+	border-radius: 20px;
 	text-transform: uppercase;
 }
 #find:hover {
