@@ -46,8 +46,8 @@ body, html {
             background-color: #007bff;
             color: white;
             border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
+            padding: 30px 30px;
+            border-radius: 30px;
             cursor: pointer;
             margin-top: 10px;
         }
