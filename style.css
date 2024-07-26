@@ -5,51 +5,33 @@ body {
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 }
-
-a {
-  color: #000 !important;
-  text-decoration: none
-}
-
-.input {
-	width: 100%;
-	height: 20px;
-}
-
-#main {
-	width: 100%;
-	text_align: center;
-}
-
-#comment {
-	height: 40px;
-}
-
 .container {
 	max-width: 390px;
 	padding: 20px;
 }
-
 .inner {
 	right: 100;
 	display: grid;
 	grid-template-rows: auto;
+	width: 100%;
+	text_align: center;
 }
-
 .item {
 	margin: 0;
 	padding: 0;
 	text-align: center;
 	align-items: center;
 }
-
+a {
+  	color: #000 !important;
+  	text-decoration: none
+}
 .img {
 	width: 180px;
 	height: 180px;
 	border: 2px;
 	border-radius: 25px;
 }
-
 #find {
 	padding: 15px 40px;
 	border: none;
@@ -57,14 +39,10 @@ a {
 	border-radius: 10px;
 	text-transform: uppercase;
 }
-
 #find:hover {
 	transform: scale(1.1);
 	background: rgb(248,168,24);
 }
-	
-
-
 .usercard {
 	text-align: center;
 }
