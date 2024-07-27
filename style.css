@@ -45,8 +45,8 @@ h1 {
 .button {
         color: white;
         border: none;
-        padding: 33px 25px;
-        border-radius: 40px;
+        padding: 30px 30px;
+        border-radius: 5px;
         cursor: pointer;
         margin-top: 10px;
 }
