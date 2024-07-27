@@ -1,6 +1,6 @@
 let tg = window.Telegram.WebApp;
 
-tg.expand();
+
 
 let btnclose = document.getElementById("btnclose");
 
