@@ -13,7 +13,7 @@ body, html {
         background-position: center;
 }
 .select {
-	width: 150px;
+	width: 100px;
 	height: 42px;
 	background: var(--tg-theme-section-bg-color);
 	border-radius: 8px;
