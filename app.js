@@ -2,31 +2,17 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-let order = document.getElementById("order");
+let btnclose = document.getElementById("btnclose");
 
-order.addEventListener("click", () => {
-	let name = document.getElementById("username").value;
-	let email = document.getElementById("user_email").value;
-	let phone = document.getElementById("user_phone").value;
-	let comment = document.getElementById("comment").value;
-	if(name.length < 4) {
-		document.getElementById("error").innerText = ".. Ошибка в имени ..";
-		return;
-	}
-	if(email.length < 4) {
-		document.getElementById("error").innerText = ".. Ошибка в email ..";
-		return;
-	}
-	if(phone.length < 10) {	
-		document.getElementById("error").innerText = ".. Ошибка в номере телефона ..";
-		return;
-	}
+btnclose.addEventListener("click", () => {
+	let category = document.getElementById("category").value;
+	let passengers = document.getElementById("passengers").value;
+	let count = document.getElementById("count").value;
 
 	let data = {
-		name: name,
-		email: email,
-		phone: phone,
-		comment: comment,
+		category: category,
+		passengers: passengers,
+		count: count,
 	}
 	tg.sendData(JSON.stringify(data));
 	tg.close;
