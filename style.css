@@ -46,8 +46,8 @@ h1 {
 	background-color: var(--tg-theme-button-color);
         color: var(--tg-theme-button-text-color);
         border: none;
-        padding: 10px 20px;
-        border-radius: 6px;
+        padding: 13px 30px;
+        border-radius: 8px;
         cursor: pointer;
         margin-top: 10px;
 }
