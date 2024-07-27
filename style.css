@@ -13,7 +13,7 @@ body, html {
         background-position: center;
 }
 .select {
-	width: 295px;
+	width: 305px;
 	height: 42px;
 }
 .content {
@@ -38,7 +38,7 @@ h1 {
         border: 1px solid #ddd;
         padding: 20px;
         border-radius: 4px;
-	width: 295px;
+	width: 305px;
 }
 .text-block {
         margin: 20px 0;
